@@ -1,0 +1,20 @@
+{
+  "name": "rainfall",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kevin Norris <kevin@joyoushq.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html",
+    "lint": "./node_modules/.bin/eslint src"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "eslint": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2",
+    "parcel-bundler": "^1.12.3"
+  },
+  "dependencies": {
+    "ramda": "^0.26.1"
+  }
+}
